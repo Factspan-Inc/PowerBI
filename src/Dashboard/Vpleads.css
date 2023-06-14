@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B526F;
+  }
+  
+  .vpleads-main {
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+  }
+  .filter-heading{
+   text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+  .dropdown {
+    text-align: left;
+    width: 90%;
+    display: block;
+    margin-top: 5px;
+    background-color: #0F96BF;
+    color: white;
+    font-size: 14px;
+    border-bottom: 1px solid white;
+    margin-top: 8px;
+  }
+  .value-report-button{
+    margin: 10px 50px 10px 50px;
+    background-color: #45C1E9;
+    font-size: 22px;
+    color: #003F5F;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 80px / 157px 0px;
+  }
+  .booking-feedback-button{
+    margin: 20px 28px 5px 5px;
+    background-color: #45C1E9;
+    color: black;  
+    border-radius: 100px;
+    padding: 10px;
+    font-weight: 500;
+    border: 1px solid white;
+  }
+  .note{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5%;
+    border: 1px solid white;
+    font-size: 10px;
+  }
+  .note {
+    color: white;
+  }
+  
+  .note span {
+    color: red;
+  }
+  .chart-lead-bucket{
+    color: #4BD4FF;
+    font-size: 18px;
+  }
+  .chart-container {
+    max-width: 100%;
+    margin-left: 40px;
+  }
+  .legend-text {
+    display: flex;
+    align-items: center;
+    color: rgb(235, 233, 233);
+    font-size: 12px;
+  }
+  .value-chart{
+    margin-top: 10px;
+  }
+  .value-button{
+    margin: 10px 10px 5px 5px;
+    background-color: #1E5471;
+    color:white;  
+    text-align: center;
+    padding: 30px;
+    font-size: 28px;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px 2px #1A4D68;
+    width: 90%;
+  }
+  .text-booked{
+    color: #4AD4FE;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .legend-main{
+    margin-left: 41px;
+    margin-top: 30px;
+  }
+  .chart-container canvas {
+    margin-left: 30px;
+    width: 94% !important;
+    height: 94% !important;
+}
