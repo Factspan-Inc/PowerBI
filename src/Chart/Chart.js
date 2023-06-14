@@ -25,7 +25,7 @@ const Chart = ({ chartData }) => {
   };
 
   return (
-    <div style={{ width: '200px', height: '200px' }}>
+    <div style={{ width: '100px', height: '100px' }}>
       <Doughnut data={data} options={options} />
     </div>
   );

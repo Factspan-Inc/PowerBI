@@ -4,6 +4,11 @@
   }
   
   .chart-container canvas {
+    margin-left: -16px;
+    /* width: 50% !important;
+    height: 50% !important; */
+  }
+  .chart-containers canvas {
     margin-left: -22px;
     width: 50% !important;
     height: 50% !important;

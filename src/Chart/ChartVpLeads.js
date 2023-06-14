@@ -7,7 +7,7 @@ const ChartVpLeads = ({ chartData }) => {
     datasets: [
       {
         data: chartData,
-        backgroundColor: ['#efb5b9', '#e8d166', '#eb895f', '#a666b0', '#02b38d', '#4dd5ff'],
+        backgroundColor: ['#717BC5', '#F0E199', '#F0A787', '#A666B0', '#EC8FCA', '#4DD5FF'],
       },
     ],
   };
@@ -25,7 +25,7 @@ const ChartVpLeads = ({ chartData }) => {
   };
 
   return (
-    <div style={{ width: '400px', height: '400px' }}>
+    <div style={{ width: '390px', height: '390px' }}>
       <Doughnut data={data} options={options} />
     </div>
   );
