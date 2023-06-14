@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Chart from '../Chart/Chart';
+import ChartVpLeads from '../Chart/ChartVpLeads';
 import "./Vpleads.css";
 
 const Vpleads = () => {
@@ -161,7 +161,7 @@ const Vpleads = () => {
                     <div className="chart-lead-bucket">Lead Probability Bucket</div>
                    <div className="row value-chart">
                     <div className="chart-container col-md-6">
-              <Chart chartData={vpLeadsData} />
+              <ChartVpLeads chartData={vpLeadsData} />
               </div>
               <div className="col-md-4 legend-main">
               <div className="legend">

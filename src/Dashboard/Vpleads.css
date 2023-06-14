@@ -94,11 +94,6 @@ body {
     font-weight: 300;
   }
   .legend-main{
-    margin-left: 41px;
+    margin-left: 187px;
     margin-top: 30px;
   }
-  .chart-container canvas {
-    margin-left: 30px;
-    width: 94% !important;
-    height: 94% !important;
-}
