@@ -160,6 +160,9 @@
   .legend-text {
     margin-right: 10px;
   }
+  .row {
+    margin-right: auto !important;
+  }
   
   
     

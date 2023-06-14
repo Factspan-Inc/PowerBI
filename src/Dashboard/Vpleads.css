@@ -34,7 +34,7 @@ body {
     font-size: 22px;
     color: #003F5F;
     font-weight: 700;
-    padding: 10px;
+    padding: 6px;
     border-radius: 80px / 157px 0px;
   }
   .booking-feedback-button{
@@ -94,6 +94,65 @@ body {
     font-weight: 300;
   }
   .legend-main{
-    margin-left: 187px;
+    margin-left: 77px;
     margin-top: 30px;
   }
+  .table-header>tr>th{
+    font-size: 10px;
+    background-color: #0F96BF;
+    color: white;
+    font-weight: 500;
+    border: 1px solid white;
+  }
+  .table-body>tr>td{
+    font-size: 8px;
+    padding: 0px;
+    border: 1px solid white;
+    background-color: #1A4D68;
+    color: white;
+  }
+  .table-name{
+    margin-top: 5px;
+  }
+  .clickable-cell {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+  }
+  .range_value-left{
+   border: 1px solid white;
+   padding: 3px;
+    margin-right: 10px;
+    font-size: 12px;
+    background-color: #0F96BF;
+  }
+  .range_value-right{
+    border: 1px solid white;
+   padding: 3px;
+    margin-left: 5px;
+    font-size: 12px;
+    background-color: #0F96BF;
+  }
+  .range-selector {
+    width: 180px; /* Adjust the width as per your requirement */
+  }
+  
+  .slider-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-slider {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .slider-values {
+    display: flex;
+  }
+  
+  .slider-values span {
+    margin-right: 10px;
+  }
+  
+
