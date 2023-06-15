@@ -2,19 +2,30 @@ import React from "react";
 import "./Dashboard.css";
 import Chart from "../Chart/Chart";
 import { Link } from "react-router-dom";
+import logo from '../Images/Maersk-Emblem.jpg'
 
 const Dashboard = () => {
   const vpLeadsData = [7, 2, 15, 1, 90, 10]; // Example data for VP Leads
   const intermodalLeadsData = [5, 8, 3, 12, 6, 15];
   const extramodalLeadsData = [5, 10, 3, 10, 16, 6]; 
   const chbimport = [10, 20, 30, 8,8,24];
-  const chbexport = [10, 20,10,10,0,40]
+  const chbexport = [10, 20,10,10,0,40];
+  
   // Example data for Intermodal Leads
   return (
     <div className="dashboard-main">
       <div className="header-main">
-        <div className="header-title">
+        <div className="row">
+          <div className="col-md-1"></div>
+          <div className="col-md-2">
+      <img src={logo} alt="logo" className="logo_img" style={{ width: '30px'}} />
+      </div>
+        <div className="header-title col-md-6">
           Product Xsell Recommendations (future 90 days)
+        </div>
+        <div className="col-md-3">
+        <button className="button-cx">GDA</button>
+        </div>
         </div>
         <hr className="header-line"></hr>
         <div className="container-fluid">
@@ -161,8 +172,8 @@ const Dashboard = () => {
             </div>
           </div>
           <div className="col-md-3 CX-button">
-            <button className="button-cx">CX performance Dashboard</button>
-          </div>
+   <Link to={'/CxPerformance'}><button className="button-cx">CX performanceDashboard</button></Link>
+</div>
           <div className="col-md-3"></div>
         </div>
       </div>

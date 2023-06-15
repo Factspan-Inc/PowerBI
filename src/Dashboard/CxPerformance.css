@@ -1,0 +1,66 @@
+
+.dashboard-main {
+    background-color: #1B526F;
+    height: 100vh;
+    /* Add your desired background color here */
+  }
+.header-main{
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    top: 0px;
+    margin-left: 40%;
+   
+}
+.header-title{
+    background-color: #1B526F;
+    box-shadow: 2px 2px 2px 2px #1A4D68;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.header-line {
+    color: grey;
+    margin: 0px 16px 0px 16px;
+    margin-top: 13px;
+}
+.header-line-bottom{
+    margin: 20px 16px 16px 16px;
+  
+}
+
+.go-back{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.container-fluid{
+    margin-top: 20px;
+}
+
+.card{
+    background-color:#1E5471 ;
+    color: white;
+    margin-bottom: 3px;
+}
+.dropdown{
+    border: 1px solid white;
+    font-size: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.card-head{
+    color:rgb(15,150,191);
+}
+
+.card-title{
+    font-size: 10px;
+    color:#D8DABB;
+}
+
+/* .chart-container{
+    width: 100px;
+    height: 450px;
+} */
