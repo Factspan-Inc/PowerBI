@@ -17,6 +17,12 @@ body {
     font-weight: 500;
     margin-top: 5px;
   }
+  .filter-heading-first{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
   .dropdown {
     text-align: left;
     width: 90%;
@@ -29,12 +35,12 @@ body {
     margin-top: 8px;
   }
   .value-report-button{
-    margin: 10px 50px 10px 50px;
+    margin: 10px 50px 8px 50px;
     background-color: #45C1E9;
     font-size: 22px;
     color: #003F5F;
     font-weight: 700;
-    padding: 6px;
+    padding: 4px;
     border-radius: 80px / 157px 0px;
   }
   .booking-feedback-button{
@@ -63,6 +69,7 @@ body {
   .chart-lead-bucket{
     color: #4BD4FF;
     font-size: 18px;
+    margin-left: 70px;
   }
   .chart-container {
     max-width: 100%;
@@ -155,4 +162,22 @@ body {
     margin-right: 10px;
   }
   
-
+  .toggle-option {
+    display: inline-block;
+    padding: 8px 25px;
+    cursor: pointer;
+    color: #333;
+    background-color: #eee;
+    border-radius: 0px;
+    transition: background-color 0.3s;
+    margin-right: 0px;
+  }
+  
+  .toggle-option.active {
+    color: #fff;
+    background-color: #0F96BF;
+  }
+  .toggle-main{
+    margin-top: 10px;
+    margin-left: -25px;
+  }

@@ -25,7 +25,7 @@ const ChartVpLeads = ({ chartData }) => {
   };
 
   return (
-    <div style={{ width: '390px', height: '390px' }}>
+    <div style={{ width: '200px', height: '200px' }}>
       <Doughnut data={data} options={options} />
     </div>
   );

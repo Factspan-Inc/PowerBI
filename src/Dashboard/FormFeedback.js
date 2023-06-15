@@ -27,7 +27,7 @@ const handleSubmit = (e) => {
     toast.success('Form submitted successfully!');
   
     setTimeout(() => {
-      navigate('/');
+      navigate('/vpleads');
     }, 2000);
   };
   

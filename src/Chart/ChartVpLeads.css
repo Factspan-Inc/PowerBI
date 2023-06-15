@@ -9,8 +9,8 @@
     height: 50% !important; */
   }
   .chart-containers canvas {
-    margin-left: -22px;
-    width: 50% !important;
-    height: 50% !important;
+    margin-left: 67px;
+    width: 100% !important;
+    height: 100% !important;
   }
   
