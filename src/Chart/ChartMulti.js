@@ -3,35 +3,35 @@ import { Bar } from 'react-chartjs-2';
   
 const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
 
-export const options = {
-    responsive: true,
-    interaction: {
-      mode: 'index',
-      intersect: false,
-    },
-    stacked: false,
-    plugins: {
-      title: {
-        display: true,
-        text: 'Chart.js Line Chart - Multi Axis',
-      },
-    },
-    scales: {
-      y: {
-        type: 'linear',
-        display: true,
-        position: 'left',
-      },
-      y1: {
-        type: 'linear',
-        display: true,
-        position: 'right',
-        grid: {
-          drawOnChartArea: false,
-        },
-      },
-    },
-};
+// export const options = {
+//     responsive: true,
+//     interaction: {
+//       mode: 'index',
+//       intersect: false,
+//     },
+//     stacked: false,
+//     plugins: {
+//       title: {
+//         display: true,
+//         text: 'Chart.js Line Chart - Multi Axis',
+//       },
+//     },
+//     scales: {
+//       y: {
+//         type: 'linear',
+//         display: true,
+//         position: 'left',
+//       },
+//       y1: {
+//         type: 'linear',
+//         display: true,
+//         position: 'right',
+//         grid: {
+//           drawOnChartArea: false,
+//         },
+//       },
+//     },
+// };
 
   
 const data = {
@@ -62,7 +62,7 @@ const data = {
 
 const ChartMulti = () => {
   return (
-    <Bar type='bar' data={data} options={options}  />
+    <Bar type='bar' data={data}   />
   );
 }
 

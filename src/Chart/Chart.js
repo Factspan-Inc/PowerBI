@@ -13,31 +13,31 @@ const Chart = ({ chartData }) => {
       },
     ],
   };
-  const options = {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend: {
-        display: false,
-      },
-      tooltip: {
-        callbacks: {
-          label: function (context) {
-            return context.labels + ': ' + context.raw + 'M'; // Display label and value with 'M' suffix
-          },
-        },
-      },
-    },
-    layout: {
-      padding: 10,
-    },
-  };
+  // const options = {
+  //   responsive: true,
+  //   maintainAspectRatio: false,
+  //   plugins: {
+  //     legend: {
+  //       display: false,
+  //     },
+  //     tooltip: {
+  //       callbacks: {
+  //         label: function (context) {
+  //           return context.labels + ': ' + context.raw + 'M'; // Display label and value with 'M' suffix
+  //         },
+  //       },
+  //     },
+  //   },
+  //   layout: {
+  //     padding: 10,
+  //   },
+  // };
   
   
 
   return (
     <div style={{ width: '100px', height: '100px' }}>
-      <Doughnut data={data} options={options} />
+      <Doughnut data={data} />
     </div>
   );
 };

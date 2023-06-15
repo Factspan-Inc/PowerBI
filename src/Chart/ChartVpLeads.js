@@ -11,22 +11,22 @@ const ChartVpLeads = ({ chartData }) => {
       },
     ],
   };
-  const options = {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend: {
-        display: false,
-      },
-    },
-    layout: {
-      padding: 10,
-    },
-  };
+  // const options = {
+  //   responsive: true,
+  //   maintainAspectRatio: false,
+  //   plugins: {
+  //     legend: {
+  //       display: false,
+  //     },
+  //   },
+  //   layout: {
+  //     padding: 10,
+  //   },
+  // };
 
   return (
     <div style={{ width: '200px', height: '200px' }}>
-      <Doughnut data={data} options={options} />
+      <Doughnut data={data}  />
     </div>
   );
 };

@@ -16,7 +16,7 @@ const CxPerformance = () => {
           <div className="header-title">CX Performance Overview</div>
         </div>
         <hr className="header-line" />
-        <div className="container-fluid">
+        <div className="container-fluid cx-performance">
             <div className="row">
                 <div className="col-md-2">
                     <div className="card mb-3">

@@ -43,13 +43,13 @@ const Vpleads = () => {
 
     fetchData();
   }, []);
-  const countryOptions = [
-    { value: "USA", label: "USA" },
-    { value: "Canada", label: "Canada" },
-    { value: "UK", label: "UK" },
-    { value: "Germany", label: "Germany" },
-    // Add more options here
-  ];
+  // const countryOptions = [
+  //   { value: "USA", label: "USA" },
+  //   { value: "Canada", label: "Canada" },
+  //   { value: "UK", label: "UK" },
+  //   { value: "Germany", label: "Germany" },
+  //   // Add more options here
+  // ];
 
   const handleRangeChange = (values) => {
     setRangeValues(values);
