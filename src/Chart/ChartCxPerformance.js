@@ -52,7 +52,7 @@ const ChartCxPerformance = () => {
   return (
     <div style={{ display: 'flex' }}>
       <div style={{ display: 'flex', flexDirection: 'column-reverse', marginLeft: '10px' }}>
-        {data.labels.map((label, index) => (
+        {/* {data.labels.map((label, index) => (
           <div key={index} style={{ display: 'flex',flexDirection:'row', alignItems: 'center', marginBottom: '5px', fontSize:'8px' }}>
             <span
               style={{
@@ -69,7 +69,7 @@ const ChartCxPerformance = () => {
             <span>{label}</span>
           </div>
           
-        ))}
+        ))} */}
         <Doughnut data={data}   />
       </div>
     </div>

@@ -14,7 +14,7 @@ const Dashboard = () => {
   // Example data for Intermodal Leads
   return (
     <div className="dashboard-main">
-      <div className="header-main">
+      <div className="header-mains">
         <div className="row">
           <div className="col-md-1"></div>
           <div className="col-md-2">

@@ -43,7 +43,7 @@ export const options = {
   };
 const ChartVertBar = () => {
   return (
-    <Bar horizontal options={options} data={data} />
+    <Bar width={500} height={175} horizontal options={options} data={data} />
   );
 }
 

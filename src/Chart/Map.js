@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api';
 
 const containerStyle = {
-  width: '560px',
-  height: '250px'
+  width: '500px',
+  height: '270px'
 };
 
 const center = {
