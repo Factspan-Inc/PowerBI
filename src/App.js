@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Dashboard />} />
         <Route path="/vpleads" element={<Vpleads />} />
         <Route path="/bookingnumber-feedback/:cellValue" element={<Form />} />
-        <Route path='/CxPerformance' element={<CxPerformance/>}></Route>
+        <Route path="/CxPerformance" element={<CxPerformance/>}></Route>
       </Routes>
     </div>
   );
