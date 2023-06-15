@@ -4,7 +4,7 @@
     height: 100vh;
     ; /* Add your desired background color here */
   }
-.header-main{
+.header-mains{
     font-size: 20px;
     font-weight: 500;
    
@@ -35,33 +35,35 @@
   .grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 5px;
+    gap: 3px;
     
   }
   
   .item {
-    margin-top: 30px;
+    margin-top: 3px;
    
     flex-grow: 1;
     border-right: 1px solid grey;
-    padding: 10px;
+    padding: 0px;
  
   }
   .button {
-    padding: 10px 27px;
+    padding: 10px 10px;
    border-radius: 5px;
     background-color: #08a18d;
     font-size: 13px;
     border: none;
-    color:white
+    color:white;
+    margin: 18px;
   }
   .vp_button{
     padding: 20px;
+    margin-left: 60px;
   }
   .button-number{
     margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 10px 10px;
     border: 1px solid rgb(12, 160, 224);
     
@@ -174,7 +176,7 @@
     margin-right: 10px;
   }
   .row {
-    margin-right: auto !important;
+    margin-right: 0 !important;
   }
   .chart-info {
     display: flex;
@@ -205,10 +207,18 @@
     margin: 0;
     margin-right: 5px;
     margin-top:30px;
+    margin-left: 37px;
   }
   .chart-values-vp{
     margin-left: -18px;
   }
+  .custom-btn {
+    padding: 20px;
+    margin: 17px;
+}
+.btn-down {
+  margin-bottom: 15px !important;
+}
   
     
   
