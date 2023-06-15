@@ -105,6 +105,9 @@
     text-align: right;
    
   }
+  .logo_img{
+    margin-top:18px;
+  }
   .button-cx{
     margin-right: auto;
     text-align: left;
@@ -113,7 +116,7 @@
     font-size: 13px;
     font-weight: 600;
     padding: 13px;
-    border-radius: 17px 3px;
+    border-radius: 10px 3px;
     margin-top: 10px;
    
   }
