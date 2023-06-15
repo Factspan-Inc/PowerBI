@@ -1,11 +1,16 @@
-.chart-container {
+/* .chart-container {
     width: 100px;
     height: 100px;
-  }
+  } */
   
-  .chart-container canvas {
+  /* .chart-container canvas {
     margin-left: -22px;
-    /* width: 50% !important;
-    height: 50% !important; */
-  }
-  
+    width: 50% !important;
+    height: 50% !important;
+  } */
+  /* .chartjs-render-monitor {
+    display: block !important;
+    height: 92px !important;
+    width: 160px !important;
+    margin-left: -15px !important;
+} */

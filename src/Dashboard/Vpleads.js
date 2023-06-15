@@ -5,6 +5,8 @@ import * as Papa from "papaparse";
 import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 import { useNavigate } from "react-router-dom";
+import { BsArrowLeft } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Vpleads = () => {
   const [data, setData] = useState([]);
@@ -107,7 +109,7 @@ const Vpleads = () => {
 
             <div className="filter-heading-first">Destination Country</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -115,7 +117,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">Destination Location</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -123,7 +125,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">Sales Group Export</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -131,7 +133,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">Origin Country</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -139,7 +141,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">Contract MSL Account Owner</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -147,7 +149,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">CBP Name Export</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -155,7 +157,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">CX User Action VP</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -163,7 +165,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">Consignee Name</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -171,7 +173,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">Price Owner Name</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -179,7 +181,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">Contractual Customer</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -187,7 +189,15 @@ const Vpleads = () => {
             </select>
           </div>
           <div className="col-md-8">
-            <div className="value-report-button">Value Protect</div>
+           <div className="row">
+            <div className="col-md-2">
+          <Link to={"/"} style={{ color: "white" }}>
+          <BsArrowLeft className="go-back-btn btn-back" size={35} />
+        </Link>
+        </div>
+            <div className="value-report-button col-md-10">
+              Value Protect</div>
+              </div>
             <div className="row">
               <div className="col-md-7">
               <div className="col-md-7">
@@ -310,7 +320,7 @@ const Vpleads = () => {
             </div>
             <div className="filter-heading">Delivery Agreement Type</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -318,7 +328,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">Container Type RKEM</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -326,7 +336,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">Contractual Customer Vertical</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -334,7 +344,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">Is Reefer?</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -342,7 +352,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">Is Reefer?</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -350,7 +360,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">Parent Commodity</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -358,7 +368,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">Shipper</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
@@ -366,7 +376,7 @@ const Vpleads = () => {
             </select>
             <div className="filter-heading">Find Booking Number</div>
             <select
-              className="dropdown"
+              className="dropdown-data"
               value={selectedCountry}
               onChange={handleCountryChange}
             >
