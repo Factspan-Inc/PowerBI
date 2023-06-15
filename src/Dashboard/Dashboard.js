@@ -172,7 +172,9 @@ const Dashboard = () => {
             </div>
           </div>
           <div className="col-md-3 CX-button">
-   <Link to={'/CxPerformance'}><button className="button-cx">CX performanceDashboard</button></Link>
+          <Link to="/CxPerformance">
+    <button className="button vp_button">CX Performance Dashboard</button>
+  </Link>
 </div>
           <div className="col-md-3"></div>
         </div>

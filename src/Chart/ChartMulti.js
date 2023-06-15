@@ -1,31 +1,7 @@
 import React from 'react'
 import { Bar } from 'react-chartjs-2';
-import {
-    Chart as ChartJS,
-    CategoryScale,
-    LinearScale,
-    PointElement,
-    LineElement,
-    Title,
-    Tooltip,
-    Legend,
-    ArcElement,
-  } from 'chart.js';
-
-
   
 const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
-
-ChartJS.register(
-    CategoryScale,
-    LinearScale,
-    PointElement,
-    LineElement,
-    ArcElement,
-    Title,
-    Tooltip,
-    Legend,
-);
 
 export const options = {
     responsive: true,
@@ -86,7 +62,7 @@ const data = {
 
 const ChartMulti = () => {
   return (
-    <Bar type="bar" data={data} options={options}  />
+    <Bar type='bar' data={data} options={options}  />
   );
 }
 
