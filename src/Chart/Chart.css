@@ -2,7 +2,11 @@
     width: 100px;
     height: 100px;
   } */
-  
+  @media only screen and (min-device-width: 1350px) {
+  .div_chart{
+    margin-left: 40px;
+  }
+}
   /* .chart-container canvas {
     margin-left: -22px;
     width: 50% !important;

@@ -23,11 +23,11 @@ const CxPerformance = () => {
             <div className="col-md-2">
               <div className="card mb-3">
                 <p style={{ fontSize: 28 }}>4K</p>
-                <p style={{ color: "#47C8E7" }}>Number of FFEs</p>
+                <p style={{ color: "#353535",fontSize: 12 }}>Number of FFEs</p>
               </div>
               <div className="card mb-2">
                 <p style={{ fontSize: 28 }}>$3M</p>
-                <p style={{ color: "#47C8E7" }}>Ocean+CX Revenue</p>
+                <p style={{ color: "#353535", fontSize: 12 }}>Ocean+CX Revenue</p>
               </div>
               <div className="filter-heading">User Name</div>
               <select className="dropdown" id="">

@@ -1,6 +1,6 @@
 
 .dashboard-main {
-    background-color: #1B526F;
+    /* background-color: #1B526F; */
     height: 100vh;
     /* Add your desired background color here */
   }
@@ -13,11 +13,12 @@
    
 }
 .header-title{
-    background-color: #1B526F;
-    box-shadow: 2px 2px 2px 2px #1A4D68;
+    /* background-color: #1B526F; */
+    /* box-shadow: 2px 2px 2px 2px #1A4D68; */
     padding: 10px;
     display: inline-block;
     border-radius: 5px;
+    color:#353535
 }
 .header-line {
     color: grey;
@@ -34,30 +35,33 @@
     flex-direction: row;
     margin-left: 50px;
     margin-top: 15px;
+    color: #353535;
 }
 .container-fluid-1{
     margin-top: 20px;
 }
 
 .card{
-    background-color:#1E5471 ;
+    /* background-color:#1E5471 ; */
     color: white;
     margin-bottom: 3px;
+    color: #353535;
 }
 .dropdown{
-    border: 1px solid white;
+    border: 1px solid #353535;
     font-size: 10px;
     width: 100%;
     margin-bottom: 15px;
 }
 
 .card-head{
-    color:rgb(15,150,191);
+    color:#353535;
+    font-weight: 500;
 }
 
 .card-title{
     font-size: 10px;
-    color:#D8DABB;
+    color:#353535;
 }
 
 /* .chart-container{

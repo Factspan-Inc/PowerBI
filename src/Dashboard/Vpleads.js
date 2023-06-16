@@ -260,10 +260,10 @@ const Vpleads = () => {
               </div>
               <div className="col-md-4">
                 <div className="value-button">
-                  2M <span className="text-booked">Booked FFEs</span>
+                  2M <div className="text-booked">Booked FFEs</div>
                 </div>
                 <div className="value-button">
-                  1M <span className="text-booked">Total Booking #</span>
+                  1M <div className="text-booked">Total Booking #</div>
                 </div>
               </div>
             </div>

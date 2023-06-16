@@ -25,17 +25,17 @@ export const options = {
     labels,
     datasets: [
       {
-        label: 'Dataset 1',
+        label: 'India',
         data: [1,2,3,4,5,4,2],
         backgroundColor: 'rgb(255, 99, 132)',
       },
       {
-        label: 'Dataset 2',
+        label: 'Kenya',
         data: [10,12,14,16,18,14,10],
         backgroundColor: 'rgb(75, 192, 192)',
       },
       {
-        label: 'Dataset 3',
+        label: 'South Africa',
         data: [20,25,30,32,28,26,22],
         backgroundColor: 'rgb(53, 162, 235)',
       },

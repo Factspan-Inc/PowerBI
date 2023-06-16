@@ -13,7 +13,7 @@ const Dashboard = () => {
 
   // Example data for Intermodal Leads
   return (
-    <div className="dashboard-main">
+    <div className="dashboard-mains">
       <div className="header-mains">
         <div className="row">
           <div className="col-md-1"></div>
@@ -25,7 +25,7 @@ const Dashboard = () => {
               style={{ width: "30px" }}
             />
           </div>
-          <div className="header-title col-md-6">
+          <div className="header-titles col-md-6">
             Product Xsell Recommendations (future 90 days)
           </div>
           <div className="col-md-3">
@@ -37,18 +37,18 @@ const Dashboard = () => {
           <div className="grid">
             <div className="item">
               <Link to="/vpleads">
-                <button className="button vp_button">VP Leads</button>
+                <button className="button vp_button">VP Leads </button>
               </Link>
               <div className="chart-info">
                 <span className="sideway-text">Booking FFEs</span>
                 <span className="chart-values">
-                  <p className="button-number-vpLeads">2.4M</p>
+                  <p className="button-number">2.4M</p>
                 </span>
               </div>
               <div className="chart-info">
                 <span className="sideway-text">Booking #</span>
                 <span className="chart-values">
-                  <p className="btn-down button-number-vpLeads">1.4M</p>
+                  <p className="btn-down button-number">1.4M</p>
                 </span>
               </div>
               <div className="chart-container-vp chart-info">
@@ -60,7 +60,7 @@ const Dashboard = () => {
             </div>
 
             <div className="item">
-              <button className="button">Intermodel Import Leads</button>
+              <button className="button custom-btn-inter">Intermodel Import Leads</button>
               <div className="button-number">1.5M</div>
               <div className="btn-down button-number">790.4K</div>
 
@@ -69,7 +69,7 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="item">
-              <button className="button">Intermodel Export Leads</button>
+              <button className="button custom-btn-inter">Intermodel Export Leads</button>
               <div className="button-number">2.6M</div>
               <div className="btn-down button-number">199.1K</div>
 
@@ -99,7 +99,7 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="item">
-              <button className="button">Booking service Import Leads</button>
+              <button className="button custom-btn-booking">Booking service Import Leads</button>
               <div className="button-number">1.8M</div>
               <div className="btn-down button-number">890.1K</div>
 
@@ -108,7 +108,7 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="item borderless">
-              <button className="button">Booking service Export Leads</button>
+              <button className="button custom-btn-booking">Booking service Export Leads</button>
               <div className="button-number">2.8M</div>
               <div className="btn-down button-number">1.6M</div>
 
@@ -127,46 +127,46 @@ const Dashboard = () => {
                 className="legend-circle"
                 style={{ backgroundColor: "#efb5b9" }}
               ></div>
-              <span className="legend-text">60-70%</span>
+              <span className="legend-texts">60-70%</span>
             </div>
             <div className="legend">
               <div
                 className="legend-circle"
                 style={{ backgroundColor: "#e8d166" }}
               ></div>
-              <span className="legend-text">70-80%</span>
+              <span className="legend-texts">70-80%</span>
             </div>
             <div className="legend">
               <div
                 className="legend-circle"
                 style={{ backgroundColor: "#eb895f" }}
               ></div>
-              <span className="legend-text">80-90%</span>
+              <span className="legend-texts">80-90%</span>
             </div>
             <div className="legend">
               <div
                 className="legend-circle"
                 style={{ backgroundColor: "#a666b0" }}
               ></div>
-              <span className="legend-text">Above 90%</span>
+              <span className="legend-texts">Above 90%</span>
             </div>
             <div className="legend">
               <div
                 className="legend-circle"
                 style={{ backgroundColor: "#02b38d" }}
               ></div>
-              <span className="legend-text">Below 60%</span>
+              <span className="legend-texts">Below 60%</span>
             </div>
             <div className="legend">
               <div
                 className="legend-circle"
                 style={{ backgroundColor: "#4dd5ff" }}
               ></div>
-              <span className="legend-text">No prob</span>
+              <span className="legend-texts">No prob</span>
             </div>
           </div>
         </div>
-        <hr className="header-line-bottom"></hr>
+        <hr className="header-line-bottom-dashboard"></hr>
         <div className="row footer">
           <div className="col-md-2"></div>
           <div className="col-md-4 contact-us">
