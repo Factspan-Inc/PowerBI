@@ -52,7 +52,7 @@ const ChartCxPerformance = () => {
     
   return (
     <div style={{ display: 'flex' }}>
-      <div style={{ display: 'flex', flexDirection: 'column-reverse', marginLeft: '10px' }}>
+      <div style={{ display: 'flex', flexDirection: 'column-reverse', marginLeft: '225px',marginBottom: '10px' }}>
         {/* {data.labels.map((label, index) => (
           <div key={index} style={{ display: 'flex',flexDirection:'row', alignItems: 'center', marginBottom: '5px', fontSize:'8px' }}>
             <span

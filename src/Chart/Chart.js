@@ -48,7 +48,7 @@ const Chart = ({ chartData }) => {
   
 
   return (
-    <div style={{ width: '150px', height: '120px' }}>
+    <div  className='div_chart' style={{ width: '150px', height: '120px'}}>
       <Doughnut data={data} options={options} />
     </div>
   );
